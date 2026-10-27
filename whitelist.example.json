@@ -1,0 +1,9 @@
+{
+  "enabled": true,
+  "clan": "RAGE",
+  "relay": "wss://your-relay-host.example.com",
+  "players": [
+    { "uuid": "00000000-0000-0000-0000-000000000000", "name": "YourName", "role": "owner" },
+    { "uuid": "11111111-1111-1111-1111-111111111111", "name": "SomeMember", "role": "member" }
+  ]
+}

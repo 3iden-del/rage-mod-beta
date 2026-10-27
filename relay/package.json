@@ -1,0 +1,9 @@
+{
+  "name": "rage-relay",
+  "version": "1.0.0",
+  "description": "Relay server for the RAGE Mod (mod users online, private messages, help requests, war announcements)",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "dependencies": { "ws": "^8.18.0" },
+  "engines": { "node": ">=18" }
+}

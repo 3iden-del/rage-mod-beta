@@ -1,0 +1,33 @@
+{
+ "schemaVersion": 1,
+ "id": "ragemod",
+ "version": "${version}",
+ "name": "RAGE Mod",
+ "description": "RAGE clan toolkit: player statuses, colored hitboxes and nicks, stats dashboard, radial menu, war mode, clan tools.",
+ "authors": [
+  "RAGE"
+ ],
+ "license": "All-Rights-Reserved",
+ "environment": "client",
+ "entrypoints": {
+  "client": [
+   "com.ragemod.RageMod"
+  ]
+ },
+ "mixins": [
+  {
+   "config": "ragemod.mixins.json",
+   "environment": "client"
+  },
+  {
+   "config": "ragemod.optional.mixins.json",
+   "environment": "client"
+  }
+ ],
+ "depends": {
+  "fabricloader": ">=0.20.1",
+  "minecraft": "~1.21.11",
+  "java": ">=21",
+  "fabric-api": "*"
+ }
+}
