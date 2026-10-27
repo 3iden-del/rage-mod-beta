@@ -30,7 +30,7 @@ public final class WhitelistGate {
 	/** Raw URL of your whitelist.json (GitHub -> open file -> Raw -> copy the link). */
 	private static final String WHITELIST_URL = "https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main/whitelist.json";
 	/** Set to false while testing to skip the whitelist completely. Set to true for the release build. */
-	private static final boolean ENFORCE = true;
+	private static final boolean ENFORCE = false;
 	// ================================================================
 
 	private static final long REFRESH_MINUTES = 5;
